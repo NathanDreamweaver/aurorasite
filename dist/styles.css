@@ -788,6 +788,11 @@ video {
   background-color: rgb(107 33 168 / var(--tw-bg-opacity));
 }
 
+:is(.dark .dark\:bg-purple-900) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 28 135 / var(--tw-bg-opacity));
+}
+
 :is(.dark .dark\:text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
