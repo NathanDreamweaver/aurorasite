@@ -23,7 +23,7 @@ function getCookie(cname) {
 
 function checkCookie() {
     let dark = getCookie("dark");
-    if (dark != "") {
+    if (dark == "true") {
         document.body.classList.toggle("dark")
     }
 }
