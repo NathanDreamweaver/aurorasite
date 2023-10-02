@@ -608,6 +608,10 @@ video {
   flex-wrap: wrap;
 }
 
+.items-baseline {
+  align-items: baseline;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -852,6 +856,22 @@ video {
 
   .md\:flex-col {
     flex-direction: column;
+  }
+
+  .md\:items-baseline {
+    align-items: baseline;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 }
 
