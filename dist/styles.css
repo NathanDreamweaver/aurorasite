@@ -581,6 +581,10 @@ video {
   width: min-content;
 }
 
+.w-\[80vh\] {
+  width: 80vh;
+}
+
 .max-w-min {
   max-width: -moz-min-content;
   max-width: min-content;
@@ -730,6 +734,18 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {
