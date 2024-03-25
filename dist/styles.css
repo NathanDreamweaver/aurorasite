@@ -636,6 +636,10 @@ video {
   width: 20vh;
 }
 
+.w-\[max\] {
+  width: max;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -682,6 +686,10 @@ video {
 
 .overflow-clip {
   overflow: clip;
+}
+
+.overflow-visible {
+  overflow: visible;
 }
 
 .break-normal {
