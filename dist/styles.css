@@ -624,6 +624,10 @@ video {
   width: 100vw;
 }
 
+.w-5 {
+  width: 1.25rem;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -838,6 +842,14 @@ video {
 @media (min-width: 640px) {
   .sm\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .sm\:h-\[80vh\] {
+    height: 80vh;
+  }
+
+  .sm\:w-auto {
+    width: auto;
   }
 
   .sm\:flex-row {
