@@ -562,6 +562,10 @@ video {
   top: 0.75rem;
 }
 
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -646,6 +650,10 @@ video {
 
 .flex-none {
   flex: none;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .flex-row {

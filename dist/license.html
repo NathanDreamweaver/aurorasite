@@ -28,7 +28,7 @@
             </div>
         </nav>
 
-        <div>
+        <div class="flex flex-col min-h-screen">
             <main class="px-6 py-3 min-h-screen shadow dark:bg-fuchsia-950 dark:text-white w-full">
                 <div class="flex flex-col text-center text-lg gap-2">
                     <div class="text-center">
@@ -76,13 +76,15 @@
                 </div>
                 
             </main>
-            <footer class="flex flex-col text-center py-2 px-3 bg-pink-300 dark:bg-purple-800 dark:text-white w-full sm:flex-row sm:items-baseline sm:justify-between">
-                <span class="w-full sm:text-left">Nathan Dreamweaver</span>
-                <div class="w-full sm:text-right">
-                    <a href="#" class="text-sm">YouTube</span>
-                    <a href="#" class="text-sm">Twitter</span>
-                </div>
-            </footer>
+            <div class="flex-auto relative">
+                <footer class="flex flex-col text-center py-2 px-3 bg-pink-300 dark:bg-purple-800 dark:text-white w-screen sm:flex-row sm:items-baseline sm:justify-between bottom-0">
+                    <span class="w-full sm:text-left">Nathan Dreamweaver</span>
+                    <div class="w-full sm:text-right">
+                        <a href="#" class="text-sm">YouTube</span>
+                        <a href="#" class="text-sm">Twitter</span>
+                    </div>
+                </footer>
+            </div>
         </div>
     </body>
 </html>
